@@ -84,13 +84,12 @@ pagenum <- function(num, text="Page", date=FALSE,
 
   gp=gpar(cex=cex, col=col)
 
-  # Need to clip for multiple base figures
+  # Need to clip if there are multiple base figures
   # See: http://tolstoy.newcastle.edu.au/R/help/06/06/30031.html
   grid.clip() 
   pushViewport(viewport(x, y, width=stringWidth(pn),
                         height=unit(2,"lines"),
-                        name="pagenum", gp=gp,
-                        ))
+                        name="pagenum", gp=gp))
   grid.text(pn, gp=gp, just=just)
   popViewport()
   

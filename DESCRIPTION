@@ -2,7 +2,7 @@ Package: pagenum
 Type: Package
 Title: Put Page Numbers on Graphics
 Version: 1.0
-Date: 2015-12-10
+Date: 2016-04-10
 Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com", role=c("aut","cre"))
 Description: A simple way to add page numbers to base/ggplot/lattice graphics.
 License: GPL-2
