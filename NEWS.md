@@ -1,8 +1,8 @@
 
-# pagenum 1.0 (Dec 2015)
+# pagenum 1.0 - Dec 2015
 
 First release to CRAN.
 
-# pagenum 0.0 (2006)
+# pagenum 0.0 - 2006
 
 Development begins.  See: tolstoy.newcastle.edu.au/R/help/06/06/30031.html
