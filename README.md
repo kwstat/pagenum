@@ -19,3 +19,15 @@ install.packages("devtools")
 devtools::install_github("kwstat/pagenum")
 ```
 
+## Usage
+
+Vignette:
+[Using the pagenum package](https://rawgit.com/kwstat/pagenum/master/vignettes/pagenum.html)
+
+```R
+require(pagenum)
+setPagenum(1)
+plot(Sepal.Length~Sepal.Width, data=iris, col=Species, pch=19)
+pagenum()
+```
+![pagenum](figure/pagenum_base.png)
