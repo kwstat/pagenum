@@ -3,6 +3,7 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pagenum)](https://cran.r-project.org/package=pagenum)
 [![CRAN_Downloads](https://cranlogs.r-pkg.org/badges/pagenum)](https://cranlogs.r-pkg.org/badges/pagenum)
 
+
 This package makes it easy to automatically add a time-stamp and page number to graphics.
 
 Key features:
@@ -15,15 +16,16 @@ Key features:
 # Install the released version from CRAN:
 install.packages("pagenum")
 
-# Install the cutting edge development version from GitHub:
+# Install the development version from GitHub:
 install.packages("devtools")
 devtools::install_github("kwstat/pagenum")
 ```
 
-## Usage
+## Vignettes
 
-Vignette:
 [Using the pagenum package](https://rawgit.com/kwstat/pagenum/master/vignettes/pagenum_examples.html)
+
+## Usage
 
 ```R
 require(pagenum)

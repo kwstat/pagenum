@@ -65,7 +65,7 @@
 #' @export
 pagenum <- function(num, text="Page", date=FALSE,
                     date.format,
-                    x=.03, y=.03, 
+                    x=.03, y=.03,
                     just=c("left","bottom"),
                     col="gray50", cex=.75){
 
@@ -82,17 +82,17 @@ pagenum <- function(num, text="Page", date=FALSE,
   if(date)
     pn <- paste(pn, "\n", format(Sys.time(), date.format), sep="")
 
-  gp=gpar(cex=cex, col=col)
+  gp <- gpar(cex=cex, col=col)
 
   # Need to clip if there are multiple base figures
   # See: http://tolstoy.newcastle.edu.au/R/help/06/06/30031.html
-  grid.clip() 
+  grid.clip()
   pushViewport(viewport(x, y, width=stringWidth(pn),
                         height=unit(2,"lines"),
                         name="pagenum", gp=gp))
   grid.text(pn, gp=gp, just=just)
   popViewport()
-  
+
   # If num is numeric, increment page number counter for next time.
   if(is.numeric(num)) setPagenum(num+1)
 

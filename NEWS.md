@@ -1,4 +1,8 @@
 
+# pagenum 1.1 - Jul 2017
+
+Now using `testthat` and `covr` packages.
+
 # pagenum 1.0 - Dec 2015
 
 First release to CRAN.

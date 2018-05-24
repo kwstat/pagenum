@@ -4,6 +4,7 @@ author: "Kevin Wright"
 date: "`r Sys.Date()`"
 bibliography: pagenum.bib
 output:
+  rmarkdown::html_vignette: default
   html_document:
     highlight: tango
 vignette: >
@@ -23,6 +24,8 @@ pre > code { border: 0; }
 
 Sometimes it can be useful to add a footnote number to graphics.  This package
 makes it easy to automatically add a time-stamp and page number to graphics.
+The package can also be used to add general text anywhere on any type of
+graphics device (base/lattice/ggplot).
 
 # R setup
 
@@ -80,10 +83,5 @@ pagenum(text="ABC Corp - ", date=TRUE,
 
 Thanks for help from Paul Murrell.
 
-## Session info
-
-```{r session}
-sessionInfo()
-```
 
 ## References
