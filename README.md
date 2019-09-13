@@ -3,6 +3,9 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pagenum)](https://cran.r-project.org/package=pagenum)
 [![CRAN_Downloads](https://cranlogs.r-pkg.org/badges/pagenum)](https://cranlogs.r-pkg.org/badges/pagenum)
 
+Homepage: https://kwstat.github.io/pagenum
+
+Repository: https://github.com/kwstat/pagenum
 
 This package makes it easy to automatically add a time-stamp and page number to graphics.
 
@@ -21,10 +24,6 @@ install.packages("devtools")
 devtools::install_github("kwstat/pagenum")
 ```
 
-## Vignettes
-
-[Using the pagenum package](https://rawgit.com/kwstat/pagenum/master/vignettes/pagenum_examples.html)
-
 ## Usage
 
 ```R
@@ -33,4 +32,4 @@ setPagenum(1)
 plot(Sepal.Length~Sepal.Width, data=iris, col=Species, pch=19)
 pagenum()
 ```
-![pagenum](figure/pagenum_base.png)
+![pagenum](man/figures/pagenum_base.png)

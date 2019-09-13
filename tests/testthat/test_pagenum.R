@@ -1,6 +1,4 @@
 
-context("test_pagenum.R")
-
 # base graphics
 setPagenum(1)
 plot(Sepal.Length~Sepal.Width, data=iris, col=Species, pch=19)
