@@ -1,3 +1,7 @@
+# pagenum 1.2 - Apr 2021
+
+Add rmarkdown to Suggests
+
 
 # pagenum 1.1 - Jul 2017
 

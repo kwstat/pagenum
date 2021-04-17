@@ -9,7 +9,7 @@ Repository: https://github.com/kwstat/pagenum
 
 This package makes it easy to automatically add a time-stamp and page number to graphics.
 
-Key features:
+## Key features
 
 * Supports base, lattice, and ggplot2 graphics.
 

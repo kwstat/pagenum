@@ -4,12 +4,19 @@
 \alias{pagenum}
 \alias{setPagenum}
 \alias{getPagenum}
-\alias{setPagenum}
-\alias{getPagenum}
 \title{Put Page Numbers on Graphics}
 \usage{
-pagenum(num, text = "Page", date = FALSE, date.format, x = 0.03,
-  y = 0.03, just = c("left", "bottom"), col = "gray50", cex = 0.75)
+pagenum(
+  num,
+  text = "Page",
+  date = FALSE,
+  date.format,
+  x = 0.03,
+  y = 0.03,
+  just = c("left", "bottom"),
+  col = "gray50",
+  cex = 0.75
+)
 
 setPagenum(num = 1)
 
