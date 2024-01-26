@@ -2,10 +2,9 @@ Package: pagenum
 Type: Package
 Title: Put Page Numbers on Graphics
 Version: 1.2
-Date: 2021-04-16
-Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com", comment=c(ORCID = "0000-0002-0617-8673"), role=c("aut","cre"))
+Authors@R: person("Kevin","Wright", email="kw.stat@gmail.com", comment=c(ORCID = "0000-0002-0617-8673"), role=c("aut","cre","cph"))
 Description: A simple way to add page numbers to base/ggplot/lattice graphics.
-License: GPL-3
+License: MIT + file LICENSE
 Encoding: UTF-8
 URL: https://kwstat.github.io/pagenum/
 BugReports: https://github.com/kwstat/pagenum/issues
