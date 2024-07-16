@@ -1,3 +1,11 @@
+# pagenum 1.3
+
+## Test environments
+
+* local R 4.4.1 on Windows 10
+* winbuilder R-devel
+
+
 # pagenum 1.2
 
 Add rmarkdown to Suggests (CRAN request)
@@ -11,7 +19,6 @@ Add rmarkdown to Suggests (CRAN request)
 ## Check results
 
 OK
-
 
 
 # pagenum 1.1
@@ -28,8 +35,8 @@ There were no ERRORs or WARNINGs.
 
 1 NOTE:
 
-Possibly mis-spelled words in DESCRIPTION:
-  ggplot (7:55)
+Possibly mis-spelled words in DESCRIPTION:  ggplot (7:55)
+
 
 # pagenum 1.0
 
@@ -40,5 +47,5 @@ Possibly mis-spelled words in DESCRIPTION:
 
 ## R CMD check results
 
-There were no ERRORs, WARNINGs, or NOTEs.
+OK
 
